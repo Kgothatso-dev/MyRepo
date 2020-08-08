@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>Show Hide Dropdown Using CSS</title>
+<style type="text/css">
+    ul{
+	        padding: 0;
+	        list-style: none;
+	        background:skyblue;
+	    }
+	    ul li{
+	        display: inline-block;
+	        position: relative;
+	        line-height: 21px;
+	        text-align: left;
+ }
+	    ul li a{
+        display: block;
+       padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+}
+ ul li a:hover{
+  color: white;
+   background:blue;
+ }
+	    ul li ul.dropdown{
+	        min-width: 100%; /* Set width of the dropdown */
+	        background: grey;
+			color: red;
+	        display: none;
+	        position: absolute;
+	        z-index: 999;
+	        left: 0;
+ }
+  ul li ul.dropdown:hover{
+			color: red;
+  }
+	    ul li:hover ul.dropdown{
+      display: block; /* Display the dropdown */
+	  }
+	    ul li ul.dropdown li{
+        display: block;
+	    }
+	</style>
+</head>
+	<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+      <li>
+          <a href="#">Service &#9662;</a>
+	            <ul class="dropdown">
+	                <li><a href="#">General 24 Hour Plumbing</a></li>
+	                <li><a href="#">Geysers, Replacements</a></li>
+	                <li><a href="#">Blocked Drains</a></li>
+						 <li><a href="#">Electronic Leak Detection</a></li>
+						  <li><a href="#">Burst Pipes</a></li>
+						    <li><a href="#">Septic Tanks</a></li>
+	            </ul>
+	        </li>
+	        <li><a href="#">Contact Us</a></li>
+	    </ul>
+		<img src="plumbrite.jpg" width="320px" height="240px" style="float:right;margin-right:100px;">
+				<center><h1 style="color:red">Plumbrite plumbing solution Cape Town</h1><br>
+<h4 style="color:blue">Welcome to the home of Cape Town's trusted Plumbing Service Company</h4></center><br>
+We offer blumbing maintainance services in and around Cape Town area, including a 24-hour plumbing emergency service, leak detection, solar
+installation, bathroom renovation, as well as contraction blumbing. No job is too big or small for RC Bosman Plumbing. We operate throughout
+the Festive season and also on all public holidays.<br><br>
+We currently have a staff compliment of 75 and strive towards creating further job opportunities, empowering our staff with up to date knowledge of plambing installation while maintaining high levels of<br>
+workmanship. R.C Bosman Plumbing is a leading plumbing company in Cape Town specializing in domestic and commercial maintainance and contraction plumbing.<br><br>
+RC Bosman Plumbing is a member of the Master Builders Association as well as The Institute of Plumbing SA. We are also members of SESSA, SEESA and the Plumbing Registration Board. No job is too big 
+or small and we guarantee fast and efficient service with a 12 month guarantee on all workmanship.<br><br>
+<center><i style="font-size:12px;">website designed by 121407 &reg; &copy; All right Reserved 2017</i></center>
+	</body>
+	</html>
+
+
